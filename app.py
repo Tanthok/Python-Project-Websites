@@ -34,16 +34,22 @@ with st.container():
     st.subheader("Hello, I am Tanner West :wave:")
     st.title("I am a Software Engineer from Georgia")
     st.write("I am using this project to make my first website using Python and Streamlit")
-    st.write("[Learn More - Linkedin >](https://www.linkedin.com/in/tanner-west-5147b915a/)")
-    st.write("[Learn More - Github >](https://github.com/Tanthok/Python-Project-Websites)")
-
-
-# ---- What i do ----
+    left_column, right_column = st.columns(2)
+    with left_column:
+        st.header("Linkedin Information")
+        st.write("Here is some of my Linkedin Profile")
+        st.write("[Learn More - Linkedin >](https://www.linkedin.com/in/tanner-west-5147b915a/)")
+    with right_column:
+        st.header("Github Information")
+        st.write("Here is some of my Github Profile")
+        st.write("[Learn More - Github >](https://github.com/Tanthok/Python-Project-Websites)")
+    
+# ---- What I Do ----
 with st.container():
     st.write("---")
     left_column, right_column = st.columns(2)
     with left_column:
-        st.header("What i do")
+        st.header("Description of my Time at Equifax")
         st.write("##")
         st.write(
             """
