@@ -35,7 +35,7 @@ with st.container():
     st.title("I am a Software Engineer from Georgia")
     st.write("I am using this project to make my first website using Python and Streamlit")
     st.write("[Learn More - Linkedin >](https://www.linkedin.com/in/tanner-west-5147b915a/)")
-    st.write("[Learn More - Github >](https://www.linkedin.com/in/tanner-west-5147b915a/)")
+    st.write("[Learn More - Github >](https://github.com/Tanthok/Python-Project-Websites)")
 
 
 # ---- What i do ----
