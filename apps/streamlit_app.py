@@ -8,6 +8,7 @@ from PIL import Image
 st.set_page_config(page_title="My Webpage", page_icon=":tada", layout="wide")
 
 
+
 # --- Funcation to use a get request to pull the Lottie animation
 def load_lottieurl(url):
     r = requests.get(url)
@@ -129,3 +130,8 @@ with st.container():
             )
             st.markdown("[Watch Videos on TicTok...](https://www.tiktok.com/@tanindorf)")
 
+
+# Youtube Video: https://www.youtube.com/watch?v=YClmpnpszq8&t=11s
+# Youtube Github Link: https://github.com/Sven-Bo/streamlit-multipage-app-example
+
+# https://docs.streamlit.io/library/get-started/multipage-apps/create-a-multipage-app
