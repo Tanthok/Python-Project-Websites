@@ -28,3 +28,8 @@ Requirements would be the following,
 # Face_Recognition
     To run the application you just need to run this command here
     "python3 apps/face_recognition.py"
+
+
+
+# What should the next app be?
+
