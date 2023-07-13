@@ -1,11 +1,11 @@
 import cv2
 
 #Create Classifiers
-face_classifier = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
-eye_classifier = cv2.CascadeClassifier('haarcascade_eye.xml')
+face_classifier = cv2.CascadeClassifier('haarcascades/haarcascade_frontalface_default.xml')
+eye_classifier = cv2.CascadeClassifier('haarcascades/haarcascade_eye.xml')
 
 # Read Image, Convert to Grayscale, Run Classifiers
-image = cv2.imread('example.jpg')
+image = cv2.imread('images/example.jpg')
 image_gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
 face = face_classifier.detectMultiScale(image_gray, 1.1, 4)
 
@@ -21,3 +21,8 @@ for (x, y, w, h) in face:
 #Show Final Image
 cv2.imshow('image', image)
 cv2.waitKey(0)
+
+# Models:
+# github.com/opencv/blob/master/data/haarcascades/
+# haarcascade_frontalface_default.xml
+# haarcascade_eye.xml
